@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons_nav{
+    display: flex;
+    gap: 50px;
+    color: #4FBFA5;
+}
+
+.main_info{
+    background-color: #4FBFA5;
+    width: 100%;
+}
+
+.main_buttons{
+    display: flex;
+    color: white;
+    font-style: italic;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 0 200px;
+    gap: 50px;
+}
+
+.main_buttons li{
+    list-style: none;
+    padding: 9px 35px 10px;
+}
+
+.main_contact{
+    color: black;
+    background-color: white;
+}
+
+.main_content{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 200px 50px 200px;
+}
+
+.main_more{
+    height: 50px;
+    width: 150px;
+    background-color: #00868A;
+    color: white;
+    font-size: large;
+    font-style: italic;
+    border-style: none;
+}
+
+.main_offer p{
+    padding: 50px 0;
+    width: 70%;
+}
+
+.end_offer{
+    margin: 120px;
+}
+
+.end_offer h2{
+    text-align: center;
+    color: #00868A;
+    margin: 60px;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.end_cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.end_cards p{
+    width: 60%;
+    font-size: large;
+    color: white;
+    font-style: italic;
+}
+
+.end_cards button{
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.end_card{
+    width: 306px;
+    background-color: #00868A;
+}
+
+.lamps{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.end_card1{
+    position: relative;
+}
+
+.new{
+    position: absolute;
+    width: 65px;
+    height: 35px;
+    background-color: #4FBFA5;
+    color: white;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+    left: 30px;
+}
+
+.icons_end{
+    display: flex;
+    gap: 50px;
+    color: #4FBFA5;
+    justify-content: end;
+    margin: 50px 250px;
+}
